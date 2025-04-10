@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/<todo-add-your-github-username>/ci_cd_lab:latest
+          image: ghcr.io/ryuuandrei/dockertest:latest
           ports:
-            - containerPort: 12345
+            - containerPort: 8080
